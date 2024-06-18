@@ -1,29 +1,15 @@
 {
-    "doctrine/doctrine-bundle": {
+    "liip/imagine-bundle": {
         "version": "2.12",
         "recipe": {
-            "repo": "github.com/symfony/recipes",
+            "repo": "github.com/symfony/recipes-contrib",
             "branch": "main",
-            "version": "2.12",
-            "ref": "7266981c201efbbe02ae53c87f8bb378e3f825ae"
+            "version": "1.8",
+            "ref": "d1227d002b70d1a1f941d91845fcd7ac7fbfc929"
         },
         "files": [
-            "config/packages/doctrine.yaml",
-            "src/Entity/.gitignore",
-            "src/Repository/.gitignore"
-        ]
-    },
-    "doctrine/doctrine-migrations-bundle": {
-        "version": "3.3",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "3.1",
-            "ref": "1d01ec03c6ecbd67c3375c5478c9a423ae5d6a33"
-        },
-        "files": [
-            "config/packages/doctrine_migrations.yaml",
-            "migrations/.gitignore"
+            "config/packages/liip_imagine.yaml",
+            "config/routes/liip_imagine.yaml"
         ]
     },
     "phpunit/phpunit": {
@@ -108,18 +94,6 @@
             "public/index.php",
             "src/Controller/.gitignore",
             "src/Kernel.php"
-        ]
-    },
-    "symfony/mailer": {
-        "version": "7.1",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "4.3",
-            "ref": "df66ee1f226c46f01e85c29c2f7acce0596ba35a"
-        },
-        "files": [
-            "config/packages/mailer.yaml"
         ]
     },
     "symfony/maker-bundle": {
@@ -208,20 +182,6 @@
             "config/routes/security.yaml"
         ]
     },
-    "symfony/stimulus-bundle": {
-        "version": "2.18",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "main",
-            "version": "2.13",
-            "ref": "6acd9ff4f7fd5626d2962109bd4ebab351d43c43"
-        },
-        "files": [
-            "assets/bootstrap.js",
-            "assets/controllers.json",
-            "assets/controllers/hello_controller.js"
-        ]
-    },
     "symfony/translation": {
         "version": "7.1",
         "recipe": {
@@ -247,9 +207,6 @@
             "config/packages/twig.yaml",
             "templates/base.html.twig"
         ]
-    },
-    "symfony/ux-turbo": {
-        "version": "v2.18.0"
     },
     "symfony/validator": {
         "version": "7.1",
